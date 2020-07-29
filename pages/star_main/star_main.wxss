@@ -1,0 +1,39 @@
+/* pages/star_main/star_main.wxss */
+.container{
+  position: fixed;
+  width: 100%;
+  height:100vh;
+  background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581320553561&di=6c2f1864335bc43629293ebfbfd80278&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201407%2F13%2F20140713122644_MT5RU.thumb.700_0.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding-top:20rpx;
+}
+.outbox{
+  width:33%;
+  height:24%;
+  /* padding:0 10rpx; */
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* border:1rpx solid black; */
+}
+.outbox .bl{
+  color: #30bffc;
+  font-size: 32rpx;
+  font-weight: 500;
+}
+.inbox{
+  width:80%;
+  height:60%;
+  /* border:1rpx solid black; */
+  border-radius:60%;
+}
+.inbox image{
+  width:100%;
+  height:100%;
+  border-radius: 60%;
+}

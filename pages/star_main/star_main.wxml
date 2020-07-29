@@ -1,0 +1,10 @@
+<!--pages/star_main/star_main.wxml-->
+<view class="container">
+  <view class="outbox" wx:for="{{sta}}" wx:key="index" data-idx="{{index}}" bindtap="bindstartap">
+    <view class="inbox">
+      <image src="{{item.image}}"></image>
+      <view>{{item.title}}</view>
+      <view class="bl">{{item.date}}</view>
+    </view>
+  </view>
+</view>

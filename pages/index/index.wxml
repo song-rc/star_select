@@ -1,0 +1,5 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <button type="primary" bindtap="starselect">星座运势</button>
+
+</view>

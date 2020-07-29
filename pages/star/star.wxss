@@ -1,0 +1,183 @@
+/* pages/star/star.wxss */
+page{
+  position:relative;
+  background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581320553561&di=6c2f1864335bc43629293ebfbfd80278&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201407%2F13%2F20140713122644_MT5RU.thumb.700_0.jpeg);
+  background-size:cover;
+}
+.container{
+  position:absolute;
+  width:100%;
+  height:auto;
+}
+.mc{
+  position:fixed;
+  top:0;
+  content: '';
+  display: block;
+  width:100%;
+  height:100%;
+  background:linear-gradient(rgba(0, 0, 0, 0.5) 40%,white 50%);
+}
+.message{
+  width:94%;
+  height:auto;
+  margin:0 25rpx;
+  padding-bottom:40rpx; 
+  box-sizing: border-box;
+  background: rgb(190, 206, 240);
+  border-radius:20rpx;
+}
+.jump{
+  margin:10rpx 70%;
+  color: #fff;
+  width:210rpx;
+  display: flex;
+  align-items: center;
+  /* border:1rpx solid black; */
+}
+.jump image{
+  width:40rpx;
+  height:50rpx;
+  margin-right:10rpx;
+}
+.white{
+  position:absolute;
+  top:50%;
+  width:100%;
+  height:600rpx;
+  border:0.2rpx solid rgb(199, 193, 193);
+}
+.xz{
+  margin-top:-65rpx;
+  text-align: center;
+  font-weight: 700;
+  font-size: 50rpx;
+  background: linear-gradient(rgb(253, 8, 200),rgb(199, 21, 235));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color:transparent; 
+
+}
+.pb{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-flow: wrap;
+}
+.slxz{
+  width:25%;
+  height:33%;
+  text-align: center;
+  font-size: 30rpx;
+  color: gray;
+  /* border:1rpx solid black; */
+}
+.slxz image{
+  width:80%;
+  height:70%;
+  margin-top:10rpx;
+  border-radius: 60%;
+}
+.title{
+  width:100%;
+  height:25%;
+  /* border:1rpx solid black; */
+  display: flex;
+}
+.title .title_left{
+  width:40%;
+  height:100%;
+  /* border:1rpx solid black; */
+}
+.title_left image{
+  width:30vmin;
+  height:30vmin;
+  border-radius: 60%;
+  margin-top: -40rpx;
+}
+.title_left view{
+  font-size:45rpx;
+  font-weight:650;
+  color:#30bf;
+}
+.title .title_right{
+  width:60%;
+  height:100%;
+  /* border:1rpx solid black; */
+}
+.title_right .date{
+  color:rgb(88, 81, 81);
+  font-size:36rpx;
+  margin:20rpx;
+}
+.xx{
+  width:80%;
+  display: flex;
+  /* border:1rpx solid beige; */
+  margin: 0 auto;
+}
+.xx image{
+  width:60rpx;
+  height:60rpx;
+}
+.xx1{
+  width:80%;
+  display: flex;
+  /* border:1rpx solid beige; */
+  margin:-69rpx auto;
+}
+.xx1 image{
+  width:60rpx;
+  height:60rpx;
+}
+.day_notice{
+  font-size: 45rpx;
+  font-weight: 700;
+  margin-top:90rpx;
+}
+.zs{
+  display: flex;
+  width:100%;
+  height:25%;
+  border-bottom:0.1rpx solid rgb(197, 225, 248);
+  font-size: 34rpx;
+  color: gray;
+}
+.zs .zs_left{
+  width:50%;
+  height:100%;
+  /* border:0.5rpx solid black; */
+}
+.zs .zs_right{
+  width:50%;
+  height:100%;
+  /* border:0.5rpx solid black; */
+}
+.zs image{
+  width:35rpx;
+  height:35rpx;
+}
+.zs .image1{
+  display: flex;
+  margin-left:-165rpx; 
+}
+.zs .image{
+  display: flex;
+  margin-left:20rpx;
+}
+.zs .dq{
+  display: flex;
+  margin: 20rpx auto;
+}
+.luck_time{
+  margin: 0 20rpx;
+}
+.content .bt{
+  color:#30bf;
+  font-weight:800;
+  font-size: 36rpx;
+  margin:10rpx 10rpx;
+}
+.content .txt{
+  font-size: 32rpx;
+}

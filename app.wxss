@@ -1,0 +1,8 @@
+/**app.wxss**/
+.title{
+  text-align: center;
+}
+.h1{
+  font-weight: 600;
+  font-size:40rpx;
+}

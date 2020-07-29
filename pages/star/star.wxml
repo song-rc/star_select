@@ -1,0 +1,142 @@
+<!--pages/star/star.wxml-->
+<view class="jump" bindtap="qh">
+      <image src="/image/qh.png"></image>
+      <text>切换星座</text>
+    </view>
+<view class="container">
+  <view class="message">
+    <view class="title">
+      <view class="title_left">
+        <image src="{{xz.image}}"></image>
+        <view>{{xz.title}}</view>
+      </view>
+      <view class="title_right">
+        <view class="date">
+          今日运势({{ys.day.time}})
+        </view>
+        <view class="xx">
+          <view wx:for="{{xx}}" wx:key="index">
+            <image src="{{item.image}}"></image>
+          </view>
+        </view>
+         <view class="xx1">
+          <view wx:for="{{xx1}}" wx:key="index">
+            <image src="{{item.image}}"></image>
+          </view>
+        </view>
+        <view class="day_notice">
+          {{ys.day.day_notice}}
+        </view>
+      </view>
+    </view>
+    <view class="zs">
+      <view class="zs_left">
+        <view class="dq">
+          <view class="text">爱情运势</view>
+          <view class="image">
+            <view wx:for="{{xx}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+          <view class="image1">
+            <view wx:for="{{love}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+        </view>
+        <view class="dq">
+          <view class="text">财富运势</view>
+          <view class="image">
+            <view wx:for="{{xx}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+          <view class="image1">
+            <view wx:for="{{money}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+        </view>
+        <view class="dq">
+          <view class="text">事业学业</view>
+          <view class="image">
+            <view wx:for="{{xx}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+          <view class="image1">
+            <view wx:for="{{work}}" wx:key="index">
+              <image src="{{item.image}}"></image>
+            </view>
+          </view>
+        </view>
+        <view class="dq">
+          <view class="text">幸运时段</view>
+          <view class="luck_time">{{ys.day.lucky_time}}</view>
+        </view>
+      </view>
+      <view class="zs_right">
+        <view class="dq">
+          <view class="text">贵人星座</view>
+          <view class="luck_time">{{ys.day.grxz}}</view>
+        </view>
+        <view class="dq">
+          <view class="text">幸运颜色</view>
+          <view class="luck_time">{{ys.day.lucky_color}}</view>
+        </view>
+        <view class="dq">
+          <view class="text">幸运方向</view>
+          <view class="luck_time">{{ys.day.lucky_direction}}</view>
+        </view>
+        <view class="dq">
+          <view class="text">幸运数字</view>
+          <view class="luck_time">{{ys.day.lucky_num}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="content">
+      <view class="bt">
+        综合运势
+      </view>
+      <view class="txt">
+        {{ys.day.general_txt}}
+      </view>
+    </view>
+    <view class="content">
+      <view class="bt">
+        爱情运势
+      </view>
+      <view class="txt">
+        {{ys.day.love_txt}}
+      </view>
+    </view>
+    <view class="content">
+      <view class="bt">
+        财富运势
+      </view>
+      <view class="text">
+        {{ys.day.money_txt}}
+      </view>
+    </view>
+    <view class="content">
+      <view class="bt">
+        事业学业
+      </view>
+      <view class="text">
+        {{ys.day.work_txt}}
+      </view>
+    </view>
+  </view>
+</view>
+<view class="mc" hidden="{{hidden}}" bindtap="gb">
+  <view class="white">
+    <view class="xz">选择星座</view>
+    <view class="pb">
+      <view class="slxz" wx:for="{{sta}}" wx:key="index" data-idx="{{index}}" bindtap="click">
+        <image src="{{item.image}}"></image>
+        <view>{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+ 
